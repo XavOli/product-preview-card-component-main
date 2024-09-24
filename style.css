@@ -17,7 +17,7 @@ html,body{
 .card{
     margin:auto;
     max-width: 40rem;
-    max-height: 95%;
+    max-height: 98%;
     border-radius: 15px;
 }
 .card-title,.myPrice h1{
