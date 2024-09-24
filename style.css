@@ -25,7 +25,9 @@ html,body{
     font-family: 'Fraunces', sans-serif;
     font-size: 2.5rem;
 }
-
+.card-title{
+    color: hsl(212, 21%, 14%);
+}
 .card-subtitle{
     letter-spacing: 0.2rem;
     font-size: 0.8rem;
@@ -41,4 +43,8 @@ html,body{
 
 .btn{
     background-color: hsl(158, 36%, 37%);
+}
+
+.btn:hover{
+    background-color: hsl(212, 21%, 14%) ;
 }
