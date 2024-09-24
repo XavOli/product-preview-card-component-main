@@ -8,11 +8,17 @@
 
 html,body{
     height: 100%;
+    width: 100%;
     background-color: hsl(30, 38%, 92%);
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
 }
 
+.card{
+    margin:auto;
+    max-width: 40rem;
+    max-height: 90%;
+}
 .card-title,.myPrice h1{
     font-family: 'Fraunces', sans-serif;
     font-size: 2rem;
