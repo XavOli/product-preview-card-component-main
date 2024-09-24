@@ -13,7 +13,7 @@ html,body{
     font-size: 0.9rem;
 }
 
-.card-title{
+.card-title,.myPrice h1{
     font-family: 'Fraunces', sans-serif;
     font-size: 2rem;
 }
@@ -21,4 +21,16 @@ html,body{
 .card-subtitle{
     letter-spacing: 0.2rem;
     font-size: 0.8rem;
+}
+
+.card-subtitle, .card-text{
+    color: hsl(228, 12%, 48%);
+}
+
+.myPrice h1{
+    color:hsl(158, 36%, 37%);
+}
+
+.btn{
+    background-color: hsl(158, 36%, 37%);
 }
