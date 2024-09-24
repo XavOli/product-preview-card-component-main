@@ -17,11 +17,12 @@ html,body{
 .card{
     margin:auto;
     max-width: 40rem;
-    max-height: 90%;
+    max-height: 95%;
+    border-radius: 15px;
 }
 .card-title,.myPrice h1{
     font-family: 'Fraunces', sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .card-subtitle{
@@ -37,6 +38,9 @@ html,body{
     color:hsl(158, 36%, 37%);
 }
 
+.card-text{
+    font-size: 0.9rem;
+}
 .btn{
     background-color: hsl(158, 36%, 37%);
 }
