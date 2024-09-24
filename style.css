@@ -4,6 +4,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 html,body{
@@ -17,7 +18,7 @@ html,body{
 .card{
     margin:auto;
     max-width: 40rem;
-    max-height: 98%;
+    max-height: 96%;
     border-radius: 15px;
 }
 .card-title,.myPrice h1{
@@ -38,9 +39,6 @@ html,body{
     color:hsl(158, 36%, 37%);
 }
 
-.card-text{
-    font-size: 0.9rem;
-}
 .btn{
     background-color: hsl(158, 36%, 37%);
 }
